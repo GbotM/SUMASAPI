@@ -43,6 +43,7 @@ app.post('/sumar', (req, res) => { // http://localhost/sumar
 
 
 //Iniciando el servidor
+console.log("Servidor corriendo...")
 app.listen(app.get('port'),()=>{
     console.log(`Server listening on port ${app.get('port')}`);
 });
